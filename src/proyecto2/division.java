@@ -1,16 +1,16 @@
 package proyecto2;
 
 public class division {
-int a;
-int b;
-int divide;
+double a;
+double b;
+double divide;
 
-public division(int a, int b){
+public division(double a, double b){
         divide = a/b;
            
     }
 
-public int getDivision(){
+public double getDivision(){
     return divide;
 }
 
